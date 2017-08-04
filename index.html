@@ -65,6 +65,114 @@
       <div class="outer">
         <section id="main" class="body-wrap">
   
+    <article id="post-MinHow" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/08/04/MinHow/"  >MinHow</a>
+    </h1>
+  
+
+          
+      </header>
+    
+    <div class="article-entry " itemprop="articleBody">
+      
+        <div class="article-img">
+            <a>
+                
+                <img src="images/banner.jpg" alt="MinHow" title="MinHow">
+                
+            </a>
+        </div>
+        <div class="article-feed">
+            <p>
+                date: 2017-08-04categories: Firstauthor: fangyimcopytags:
+- First
+- Second
+
+一. 主题简介
+  miho 是一款单栏响应式的Hexo主题；基于 Hexo 3.0+ 制作，兼容移动端浏览；主题的代码托管在GitHub上，欢迎Star和Fork；如遇到问题或发表建议，可以提Issues，也可以在博客中留言给我。
+二. 安装
+2.1 安装主题
+1$ git clone https://github.com/WongMinHo/hexo-theme-miho.git themes/mihomiho主题需要Hexo 3.0或以上版本，请先升级。
+2.2 更新
+12cd themes/mihogit pull2.3 依赖安装
+如下依赖如果已经安装，请看配置介绍。
+Json-content
+生成站点文章静态数据，用于站内搜索。
+1npm install hexo-generator-json-content –save三. 站点配置
+站点配置文件_config.yml在hexo根目录下。
+3.1 启用主题
+1theme: miho3.2 网站基本配置
+以下配置是站点的全局配置，更多配置，请查看
+123456title: MinHow’s Blogsubtitle: 网站副标题description: 专注 WEB 开发的技术博客author: MinHowlanguage: 网站使用的语言timezone: 网站时区3.3 jsonContent配置
+详细的配置请查看hexo-generator-json-content
+123456789101112131415161718jsonContent:  meta: false  pages: false  posts:    title: true    date: true    path: true    text: false    raw: false    content: false    slug: false    updated: false    comments: false    link: false    permalink: false    excerpt: false    categories: false    tags: false四. 主题配置
+编辑主题配置文件，themes/miho/_config.yml。
+4.1 属性
+下面将介绍几个比较重要的配置。
+123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960
+hexo-theme-mihohttps://github.com/wongminho/hexo-theme-mihoFavicon of your site | 网站iconfavicon: /favicon.ico
+HeaderKeywords of your site | 网站关键字keywords: MinHow,MinHow’s Blog
+Head headline | 头部标题header_title: MinHow’s Blog
+Head description | 头部描述header_description: 一个专注 WEB 开发的技术博客
+Link to your logo | logo地址logo: images/logo.png
+Link to your banner_img | 首页banner图地址banner_img: images/banner.jpg
+ContentExcerpt length | 摘录长度excerpt_length: 200
+Excerpt link | 摘录链接excerpt_link: more&gt;&gt;
+New window open link | 新窗口打开文章open_new_link: false
+Article default cover picture，size：350150 | 文章默认封面图，尺寸：350150cover_picture: images/banner.jpg
+Open background particles | 开启背景粒子open_bg_particle: true
+Style customization | 样式定制style:
+Main color tone | 主色调  main_color: ‘#0cc’
+网易云跟帖，已停止服务wangyiyun: false
+畅言changyan_appid: falsechangyan_conf: false
+Analytics | 分析站长分析，输入站点idcnzz_analytics: false
+百度分析，输入key值baidu_analytics: false
+google分析google_analytics: false
+FooterAccess statistics | “不蒜子”访问量统计access_counter:  on: true  site_uv: 总访客数：  site_pv: 总访问量：
+Copyright Information | 版权信息copyright: 2017 MinHow4.2 文章封面图
+文章默认封面图，尺寸：350*150，当文章基本配置没有cover_picture时才显示。
+1cover_picture: images/banner.jpg4.3 开启背景粒子
+是否开启背景粒子。
+1open_bg_particle: true4.4 评论
+目前评论只支持畅言。
+1wangyiyun: false4.5 数据统计
+支持站长、百度、google三种数据统计，正确填写配置信息即可。
+123456
+站长分析，输入站点idcnzz_analytics: false
+百度分析，输入key值baidu_analytics: false
+google分析google_analytics: false4.6 文章基本配置
+123456789101112
+13title: Hello Worlddate: 2017-06-18categories: Firstauthor: MinHowtags:
+- First
+- Second
+
+MinHow-这是摘要
+            </p>
+        </div>
+      
+    </div>
+    <footer class="article-footer">
+        <ul class="article-footer-menu">
+            
+                <li><i class="fa fa-calendar"></i>2017-08-04</li>
+            
+            
+        </ul>
+        
+            <a href="/2017/08/04/MinHow/#more" class="article-more-link" >more&gt;&gt;</a>
+        
+    </footer>
+  </div>
+</article>
+
+
+  
     <article id="post-memcached" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -178,7 +286,7 @@ wget http://www.monkey.org/~provos/libevent-2.0.12-stable.tar.gztar zxf libevent
 
 
       <p>
-        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
         Theme <a href="//github.com/wongminho/hexo-theme-miho" target="_blank">MiHo</a>
       &copy; 2017 Fangyiming<br>
       </p>
